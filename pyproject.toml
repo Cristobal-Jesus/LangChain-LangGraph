@@ -1,25 +1,22 @@
 [project]
-name = "langchain-course"
+name = "langchain-langgraph"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Cristobal-Jesus", email = "sarmiento.cs16@gmail.com" }
+    { name = "CristobalUll", email = "alu0101755601@ull.edu.es" }
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "black>=26.5.1",
-    "deepagents>=0.7.8",
-    "isort>=8.0.1",
-    "langchain>=1.3.15",
+    "langchain-core>=1.6.0",
     "langchain-google-genai>=4.3.5",
     "langchain-ollama>=1.1.0",
-    "langchain-openai>=1.5.2",
+    "langchain-openai>=1.6.0",
     "python-dotenv>=1.2.3",
 ]
 
 [project.scripts]
-langchain-course = "langchain_course:main"
+langchain-langgraph = "langchain_langgraph:main"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
