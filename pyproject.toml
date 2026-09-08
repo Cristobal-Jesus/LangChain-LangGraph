@@ -7,7 +7,14 @@ authors = [
     { name = "CristobalUll", email = "alu0101755601@ull.edu.es" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "black>=26.5.1",
+    "isort>=9.0.1",
+    "langchain>=1.4.0",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.6.0",
+    "python-dotenv>=1.2.3",
+]
 
 [project.scripts]
 langchain-langgraph = "langchain_langgraph:main"
